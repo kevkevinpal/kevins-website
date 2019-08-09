@@ -1,0 +1,16 @@
+.NavBar-HomeButton{
+    height: 50px;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+.NavBar-Button{
+    width: 100px;
+    color: #123c69
+}
+
+.NavBar-Row{
+    height: 50px;
+    justify-content: flex-end;
+    align-content: center;
+}
