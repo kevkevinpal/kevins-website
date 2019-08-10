@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
+import AboutMe from './AboutMe'
+import Form from './Form'
 class Contact extends React.Component{
     constructor(props){
         super(props)
@@ -12,8 +12,17 @@ class Contact extends React.Component{
 
     render(){
         return(
-            <div>
-                Contact
+            <div class='Container'>
+                <div class='row'>
+                    <div  class='col-6'>
+                        <AboutMe/>
+                    </div>
+                    <div class='col-6'>
+                    <Form />
+                    </div>
+                    
+                </div>
+                
             </div>
 
         );

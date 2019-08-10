@@ -2,11 +2,13 @@
     height: 50px;
     justify-content: flex-start;
     align-content: center;
-    
+   
 }
 .NavBar-Button{
-    width: 100px;
-    color: #123c69
+    min-width: 100px;
+    color: #123c69;
+    display: inline;
+    padding-left: inherit;
 }
 
 .NavBar-Row{

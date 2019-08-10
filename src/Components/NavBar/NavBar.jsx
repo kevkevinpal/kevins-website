@@ -12,25 +12,28 @@ class NavBar extends React.Component{
    
     
    button(name){
+       let passedVar = name;
+       if(name === 'Home')
+            passedVar = 'Kevin Pallikunnel'
+        
         return(
             <div class="NavBar-Button" onClick={() => this.props.changePage(name)}>
-                {name}
+                {passedVar}
             </div>
         )
    }
 
     render(){
         
-
         return(
             <div class="container-flex">
                 <div class="row">
 
-                    <div class="row col-4 NavBar-HomeButton pl-4">
+                    <div class="row col-6 NavBar-HomeButton pl-4">
                         {this.button('Home')}
                     </div>
                     
-                    <div class="row col-8 NavBar-Row">
+                    <div class="row col-6 NavBar-Row">
                         {this.button('Resume')}
                         {this.button('Work')}
                         {this.button('Contact')}
