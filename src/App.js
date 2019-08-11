@@ -43,7 +43,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NavBar changePage={ this.changePage.bind(this) } />
+        <NavBar changePage={ this.changePage.bind(this) } currentPage={this.state.currentPage}/>
         <div class="ml-5 mr-5">
           <AboutMe />
           <Work />

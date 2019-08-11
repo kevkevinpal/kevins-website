@@ -17,6 +17,12 @@
     float: left;
 }
 
+.AboutMe-Paragraph{
+    float: left;
+    text-align: left;
+
+}
+
 .AboutMe-TextBox{
     height: 100px;
 }

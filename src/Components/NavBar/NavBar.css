@@ -1,19 +1,26 @@
 .NavBar-HomeButton{
-    height: 50px;
-    justify-content: flex-start;
+    display: flex;
     align-content: center;
-   
+    
 }
 .NavBar-Button{
     min-width: 100px;
-    display: inline;
+    max-height: 1.8em;
     padding-left: inherit;
     font-weight: bolder;
+    display: grid !important;
+    align-content: center;
 }
 
 .NavBar-Row{
     height: 50px;
-    justify-content: flex-end;
-    align-content: center;
     background-color: #4f4a41;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.NavBar-BigRow{
+    background-color: #4f4a41;
+
 }
