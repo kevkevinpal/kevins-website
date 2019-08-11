@@ -1,0 +1,17 @@
+.AboutMe-Container{
+    background-color: #112D32;
+}
+
+.AboutMe-RowContainer{
+    justify-content: center;
+}
+
+.AboutMe-Img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.AboutMe-TextBox{
+    height: 100px;
+}

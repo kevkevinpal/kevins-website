@@ -6,7 +6,8 @@ import Work from './Components/Work/Work'
 import Contact from './Components/Contact/Contact'
 import Home from './Components/Home/Home'
 import Resume from './Components/Resume/Resume'
-
+import Footer from './Components/Footer/Footer'
+import AboutMe from './Components/AboutMe/AboutMe'
 import 'bootstrap/dist/css/bootstrap.css'
 class App extends React.Component {
     constructor(props){
@@ -37,31 +38,20 @@ class App extends React.Component {
     }
   }
 
-  renderPage(pageName) {
-    switch(pageName){
-      case 'Work':
-          return <Work />
-          break;
-      case 'Contact':
-          return <Contact />
-          break;
-      case 'Resume':
-          return <Resume />
-          break;
-      case 'Home':
-          return <Home />
-          break;
-
-    }
-  }
 
   
   render() {
     return (
       <div className="App">
         <NavBar changePage={ this.changePage.bind(this) } />
-       {this.renderPage(this.state.currentPage)}
-      
+        <div class="ml-5 mr-5">
+          <AboutMe />
+          <Work />
+          <Resume />
+          <Contact />
+        </div>
+        
+        <Footer />
       </div>
     );
   }
