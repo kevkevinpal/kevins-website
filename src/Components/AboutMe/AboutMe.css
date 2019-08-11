@@ -12,6 +12,11 @@
     height: 300px;
 }
 
+.AboutMe-Header{
+    font-weight: bolder;
+    float: left;
+}
+
 .AboutMe-TextBox{
     height: 100px;
 }

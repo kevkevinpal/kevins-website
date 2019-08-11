@@ -27,7 +27,7 @@ class NavBar extends React.Component{
         
         return(
             <div class="container-flex">
-                <div class="row">
+                <div class="row" style={{background: '#4f4a41'}}>
 
                     <div class="row col-6 NavBar-HomeButton pl-4">
                         {this.button('Home')}

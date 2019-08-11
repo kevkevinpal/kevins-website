@@ -13,12 +13,19 @@ class AboutMe extends React.Component{
     render(){
         return(
             <div class='Container AboutMe-Container'>
+                <div class='row'>
+                    
+                </div>
+               
                 <div class='row p-4 AboutMe-RowContainer'>
+                    
                     <div class='col-12 col-md-6'>
+                        
                         <img src={Pic} class="AboutMe-Img" alt="Cinque Terre"/> 
                     </div>
 
-                    <div class="col-12 col-md-6 card AboutMe-TextBox p-3">
+                    <div class="col-12 col-md-6 AboutMe-TextBox p-3">
+                        <h class='AboutMe-Header'>About Me</h><br />
                         <p>I'm Kevin Pallikunnel, a Software Developer </p>
                     </div>
                 </div>
