@@ -1,44 +1,32 @@
 import React from 'react';
-import Pic from "./Profile_pic.jpg";
-import './AboutMe.css'
+import {aboutMeContent} from './aboutMeConstants.js';
+import Pic from './Profile_pic.jpg';
+import './AboutMe.css';
 
-class AboutMe extends React.Component{
-    constructor(props){
-        super(props)
-        this.state = {
+class AboutMe extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-        }
-    }
+  showImg() {}
+  render() {
+    return (
+      <div class="Container AboutMe-Container pb-3  d-flex justify-content-center">
+        <div class="row AboutMe-RowContainer mt-4">
+          <div class="col-12 col-md-4" >
+            <img src={Pic} class="AboutMe-Img" alt="Cinque Terre" />
+          </div>
 
-    
-    showImg(){
-
-    }
-    render(){
-        return(
-            <div class='Container AboutMe-Container'>
-                
-               
-                <div class='row p-4 AboutMe-RowContainer'>
-                    
-                    <div class='col-12 col-md-6'>
-                        <img src={Pic} class="AboutMe-Img" alt="Cinque Terre"/> 
-                    </div>
-
-                    <div class="col-12 col-md-6 AboutMe-TextBox p-3">
-                        <h class='AboutMe-Header'>About Me</h>
-                        <br />
-                        <p class='AboutMe-Paragraph'>
-                            I'm Kevin Pallikunnel, a Software Developer currently finishing up my double major of Computer Science and Mathematics
-                            at Northern Illinois University. I am also currently interning at Discover Finacial Services as a Software Developer
-                            working on mainly Frontend applications
-                         </p>
-                    </div>
-                </div>
-                 
-            </div>
-
-        );
-    }
+          <div class="col-12 col-md-8  ml-md-0 ml-4">
+            <br />
+              {aboutMeContent.map(elm => (
+                <b class="d-flex ListItem align-content-start ">{elm}</b>
+              ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-export default AboutMe
+export default AboutMe;

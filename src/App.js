@@ -44,7 +44,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <NavBar changePage={ this.changePage.bind(this) } currentPage={this.state.currentPage}/>
-        <div class="ml-5 mr-5">
+        <div class="mx-auto MainSection" >
           <AboutMe />
           <Work />
           <Resume />

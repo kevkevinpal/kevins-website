@@ -13,7 +13,8 @@ class Work extends React.Component{
     render(){
         return(
             <div class="Work-Container">
-                Work
+               <h1 class="d-flex align-self-start ml-4">Bio</h1>
+		<p1>dafsdaf</p1>
             </div>
 
         );
