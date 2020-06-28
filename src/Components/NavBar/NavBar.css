@@ -1,26 +1,24 @@
-.NavBar-HomeButton{
-    display: flex;
-    align-content: center;
-    
+.NavBar-HomeButton {
+  display: flex;
+  align-content: center;
 }
-.NavBar-Button{
-    min-width: 100px;
-    max-height: 1.8em;
-    padding-left: inherit;
-    font-weight: bolder;
-    display: grid !important;
-    align-content: center;
-}
-
-.NavBar-Row{
-    height: 50px;
-    background-color: #4f4a41;
-    justify-content: flex-end;
-    display: flex;
-    justify-content: center;
+.NavBar-Button {
+  min-width: 100px;
+  max-height: 1.8em;
+  padding-left: inherit;
+  font-weight: bolder;
+  display: grid !important;
+  align-content: center;
 }
 
-.NavBar-BigRow{
-    background-color: #4f4a41;
+.NavBar-Row {
+  height: 50px;
+  background-color: #4f4a41;
+  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+}
 
+.NavBar-BigRow {
+  background-color: #4f4a41;
 }

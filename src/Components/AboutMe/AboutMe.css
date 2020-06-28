@@ -1,27 +1,22 @@
-
-.AboutMe-RowContainer{
-    justify-content: flex-start;
+.AboutMe-RowContainer {
+  justify-content: flex-start;
 }
 
 .ListItem {
-font-size: 15px
-
+  font-size: 15px;
 }
 
-.AboutMe-Img{
-    border-radius: 50%;
-    height: 200px;
+.AboutMe-Img {
+  border-radius: 50%;
+  height: 200px;
 }
 
-.AboutMe-Header{
-    font-weight: bolder;
-    float: left;
+.AboutMe-Header {
+  font-weight: bolder;
+  float: left;
 }
 
-.AboutMe-Paragraph{
-    float: left;
-    text-align: left;
-
+.AboutMe-Paragraph {
+  float: left;
+  text-align: left;
 }
-
-
