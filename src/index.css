@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+html {
+font-size: 14px
+}
+
 div{
   color: #BAB2B5;
 }

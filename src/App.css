@@ -1,10 +1,11 @@
 .App {
   text-align: center;
-  background-color: #254E58;
 }
 
-.MainSection { 
-max-width: 800px;
+.MainSection {
+  max-width: 800px;
+  background-color: #112d32;
+  padding-bottom: 20px;
 }
 
 .App-logo {
@@ -14,18 +15,18 @@ max-width: 800px;
 }
 
 .App-header {
-  background-color: #BAB2B5;
+  background-color: #bab2b5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #BAB2B5;
+  color: #bab2b5;
 }
 
 .App-link {
-  color: #BAB2B5;
+  color: #bab2b5;
 }
 
 @keyframes App-logo-spin {
