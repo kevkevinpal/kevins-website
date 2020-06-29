@@ -10,7 +10,7 @@ const _renderExperienceInfo = () => {
       </div>
       <h5 class="ml-2">{info.organization}</h5>
       {info.description.map(details => (
-        <b4 class="ml-4 d-block">{details}</b4>
+        <b4 class="ml-4 d-block" dangerouslySetInnerHTML={{__html: details}} />
       ))}
     </div>
   ));
