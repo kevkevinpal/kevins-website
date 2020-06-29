@@ -22,14 +22,15 @@ export const projectInfo = [
     link:
       'https://nbviewer.jupyter.org/github/kevkevinpal/NetflixTitlesNotebook/blob/master/NetflixMoviesAndTVShows.ipynb',
     description: [
-      'Created Google Chrome Extention to create a dark theme for Pandora Music Players Website',
+      'Looked for common trends in how Netflix picks what kind of titles they want on their platform such as location',
+      'Utilized python, pandas, jupyter notebooks and other technologies',
     ],
   },
   {
     title: 'Convex sets on Desmos',
     link: 'https://www.desmos.com/calculator/31dywqitez',
     description: [
-      'Created Google Chrome Extention to create a dark theme for Pandora Music Players Website',
+      'Tutorial on what is a convex set and certain properties of it inside of the Desmos calculator enviorment',
     ],
   },
   {
@@ -37,7 +38,7 @@ export const projectInfo = [
       'Monomials, Posynomials, and non posynomial log log convex functions on Desmos',
     link: 'https://www.desmos.com/calculator/bdxjphsx95',
     description: [
-      'Created Google Chrome Extention to create a dark theme for Pandora Music Players Website',
+      'Desmos tutorial on different types of functions that can be expressed as a convex function with a log log operation applied to it',
     ],
   },
 ];
