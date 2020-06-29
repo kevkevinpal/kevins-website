@@ -13,7 +13,7 @@ export const AboutMe = () => (
       <div class="col-12 col-md-8  ml-md-0 ">
         <br />
         {aboutMeContent.map(elm => (
-          <h5 class="d-flex ListItem text-left">{elm}</h5>
+          <h5 class="d-flex ListItem text-left" dangerouslySetInnerHTML={{__html: elm}}/>
         ))}
         <span class="d-flex justify-content-start">
           <a href="https://www.github.com/kevkevinpal" style={{color: 'green'}}>
