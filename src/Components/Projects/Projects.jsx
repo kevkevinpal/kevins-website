@@ -4,7 +4,11 @@ import {projectInfo} from './projectConstants.js';
 
 const getTitle = (titleText, titleLink) => {
   if (!!titleLink) {
-    return <a style={{color: 'green'}} href={titleLink}>{titleText}</a>;
+    return (
+      <a style={{color: 'green'}} href={titleLink}>
+        {titleText}
+      </a>
+    );
   }
   return titleText;
 };
@@ -12,7 +16,10 @@ const getTitle = (titleText, titleLink) => {
 const _renderProjectInfo = () => {
   return projectInfo.map(project => (
     <div class="text-left">
-      <h5>{getTitle(project.title, project.link)}</h5>
+	  <div class="row   mr-4 mr-md-auto d-flex justify-content-between">
+      <h5 class="col-10 ">{getTitle(project.title, project.link)}</h5>
+      <h5 class="col-2 col-md-auto">{project.date}</h5>
+	  </div>
       {project.description.map(desc => (
         <b4 class="ml-2 d-block mb-1">{desc}</b4>
       ))}
