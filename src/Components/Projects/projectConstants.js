@@ -22,7 +22,7 @@ export const projectInfo = [
     link:
       'https://nbviewer.jupyter.org/github/kevkevinpal/NetflixTitlesNotebook/blob/master/NetflixMoviesAndTVShows.ipynb',
     description: [
-      'Looked for common trends in how Netflix picks what kind of titles they want on their platform such as location',
+      'Looked for common trends in how Netflix picks what kind of titles they want on their platform based on the production location and its countries gdp and population',
       'Utilized python, pandas, jupyter notebooks and other technologies',
     ],
   },
