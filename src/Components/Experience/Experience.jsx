@@ -4,10 +4,9 @@ import {experienceInfo} from './experienceConstants.js';
 const _renderExperienceInfo = () => {
   return experienceInfo.map(info => (
     <div class="align-self-start text-left mb-4">
-      <div class="d-flex">
-        <h5>{info.title}</h5>
-        <h5 class="ml-1 mr-1 ">:</h5>
-        <h5>{info.timeRange}</h5>
+      <div class="row mr-2">
+        <h5 class="col-12 col-md">{info.title}</h5>
+        <h5 class="ml-4 ml-md-0">{info.timeRange}</h5>
       </div>
       <h5 class="ml-2">{info.organization}</h5>
       {info.description.map(details => (
