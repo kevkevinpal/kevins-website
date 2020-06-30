@@ -20,3 +20,7 @@
   float: left;
   text-align: left;
 }
+
+.cls-2 {
+  fill: green !important;
+}
