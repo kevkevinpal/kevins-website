@@ -4,7 +4,9 @@ import Pic from './Profile_pic.jpg';
 import './AboutMe.css';
 import {ReactComponent as TwitterLogo} from './twitterLogo.svg';
 import {ReactComponent as GithubLogo} from './githubLogo.svg';
+
 import {ReactComponent as LinkedInLogo} from './linkedInLogo.svg';
+import {ReactComponent as MediumLogo} from './mediumLogo.svg';
 
 export const AboutMe = () => (
   <div class="Container  pb-3  d-flex justify-content-center align-content-center mr-4 ml-4">
@@ -29,6 +31,9 @@ export const AboutMe = () => (
           </a>
           <a href="https://www.linkedin.com/in/kevin-pallikunnel/">
             <LinkedInLogo fill="green" height="25px" width="25px" />
+          </a>
+          <a style={{paddingLeft: "8px"}} href="https://medium.com/@oapallikunnel">
+            <MediumLogo />
           </a>
         </span>
       </div>
