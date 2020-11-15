@@ -20,9 +20,10 @@ const _renderProjectInfo = () => {
       <h5 class="col-10 ">{getTitle(project.title, project.link)}</h5>
       <h5 class="col-2 col-md-auto">{project.date}</h5>
 	  </div>
-      {project.description.map(desc => (
-        <b4 class="ml-2 d-block mb-1">{desc}</b4>
+      <ul > {project.description.map(desc => (
+        <li class="ml-2 d-block mb-1">- {desc}</li>
       ))}
+	  </ul>
     </div>
   ));
 };
