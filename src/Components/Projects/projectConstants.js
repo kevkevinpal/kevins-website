@@ -11,6 +11,7 @@ export const projectInfo = [
 			"Looked at total spend in a month to month chart",
 			"took a look at which categories have the most spend in",
 			"used the fbprophet library to predict future trends in my spending on my Discover card",
+			"Also used mrmooney's mintapi library to get mint transaction data",
 			"Private libary because it contains financial information",
 		],
 	},
