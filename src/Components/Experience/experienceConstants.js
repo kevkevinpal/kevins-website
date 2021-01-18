@@ -1,5 +1,14 @@
 export const experienceInfo = [
 	{
+		timeRange: "Jan 2021 - Current",
+		title:
+			"Discover Financial Services - Associate Software Developer",
+		organization: "Login/Authentication Team",
+		description: [
+			"Adding and mantaining features for login platforms using Java with bootstrap framework",
+		],
+	},
+	{
 		timeRange: "Jan 2020 - Current",
 		title:
 			"Discover Financial Services - Associate Software Developer",
@@ -7,7 +16,7 @@ export const experienceInfo = [
 		description: [
 			'Adding and matianing features <a style="color:green" href="https://reactnative.dev/">React Native</a> utilizing tools such as <a style="color:green" href="https://flow.org/">Flow</a>, <a style="color:green" href="https://jestjs.io/">Jest</a> and others.',
 			"Utilized Redux for state management",
-			'Worked with crossfunctional teams to quickly make changes'
+			"Worked with crossfunctional teams to quickly make changes",
 		],
 	},
 	{
