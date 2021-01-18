@@ -46,20 +46,10 @@ export const projectInfo = [
 		title: "Exploring Netflix titles dataset",
 		date: "02/2020",
 		link:
-			"https://nbviewer.jupyter.org/github/kevkevinpal/NetflixTitlesNotebook/blob/master/NetflixMoviesAndTVShows.ipynb",
+			"https://kevkevinpal.github.io/NetflixTitlesNotebook/docs/mainPage.html",
 		description: [
 			"Looked for common trends in how Netflix picks what kind of titles they want on their platform based on the production location and its countries gdp and population",
 			"Utilized python, pandas, jupyter notebooks and other technologies",
-		],
-	},
-
-	{
-		title: "Triage Helper",
-		date: "11/2016",
-		link: "https://bitbucket.org/BG2CRX/triage-helper/src/master/",
-		description: [
-			"With a team of 1 one ios coder two less experinced coders and a medical student we were able to create a ios application in less than 48 hours",
-			"This application created a digital platform which doctors could use to triage in case of a disaster",
 		],
 	},
 	{
@@ -68,8 +58,8 @@ export const projectInfo = [
 		link:
 			"https://chrome.google.com/webstore/detail/darker-pandora/leinejhjpdhfhpeeeibbakneignddpek?hl=en-US",
 		description: [
-			"Created Google Chrome Extention to create a dark theme for Pandora Music Players Website",
-			"Currently has around 500 users and 4.6 stars",
+			"Utilized css injection and JavaScript scripts to change color of Pandora Music website",
+			"Currently has around 450 users and 4.6 stars",
 		],
 	},
 ];

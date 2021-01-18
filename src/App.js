@@ -16,6 +16,7 @@ class App extends React.Component {
 	};
 	render() {
 		this.fetchData();
+
 		return (
 			<div className="App">
 				<NavBar />
