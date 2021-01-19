@@ -9,7 +9,7 @@ export const experienceInfo = [
 		],
 	},
 	{
-		timeRange: "Jan 2020 - Current",
+		timeRange: "Jan 2020 - Jan 2021",
 		title:
 			"Discover Financial Services - Associate Software Developer",
 		organization: "Mobile Application Feature Team",
