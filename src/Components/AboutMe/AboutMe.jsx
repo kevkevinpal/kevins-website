@@ -32,7 +32,7 @@ export const AboutMe = () => (
           <a href="https://www.linkedin.com/in/kevin-pallikunnel/">
             <LinkedInLogo fill="green" height="25px" width="25px" />
           </a>
-          <a style={{paddingLeft: "8px"}} href="https://medium.com/@oapallikunnel">
+          <a style={{paddingLeft: "8px"}} href="https://kevkevinpal.medium.com/">
             <MediumLogo />
           </a>
         </span>
